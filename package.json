@@ -4,7 +4,7 @@
   "description": "testing scss",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass sass/main.scss css/style.css -w"
+    "sass": "node-sass --watch --output-style compressed --source-map true sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
